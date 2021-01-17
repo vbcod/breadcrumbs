@@ -1,0 +1,29 @@
+{
+    "name": "vbcod/breadcrumbs",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vitaliy bondarenko",
+            "email": "bovile17051992@gmail.com"
+        }
+    ],
+    "require": {
+        "vbcod/htmlelement": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vbcod\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../htmlelement",
+            "options": {
+                "symlink": false
+            }
+        }
+    ]
+}
